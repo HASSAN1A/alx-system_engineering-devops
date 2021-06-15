@@ -1,1 +1,2 @@
-shell variable expansions
+Shell expansions
+in bash scripts

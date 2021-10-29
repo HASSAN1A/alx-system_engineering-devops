@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This reads fields in a file.log
+file="./apache-access.log"
+awk '{ print $1, $9 }' $file

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# COnfigure HAProxy on the Load balancer
+# Configure HAProxy on the Load balancer
 apt-get update
 apt-get install -y haproxy=1.6.\*
 echo -e "\nbackend web-backend\n\tbalance roundrobin\n\tserver web1 35.237.123.100:80 check\n\tserver web2 3.237.25.182:80 check\n" >> /etc/haproxy/haproxy.cfg
